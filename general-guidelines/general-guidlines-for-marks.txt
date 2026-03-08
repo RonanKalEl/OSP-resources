@@ -1,0 +1,25 @@
+make every section specific to the scenario, not generic
+
+justify choices with clear reasoning
+
+make requirements, KPIs, and acceptance criteria measurable
+
+ensure the design is detailed enough for a third party to implement
+
+build a prototype that genuinely meets the criteria in the mark scheme
+
+show thorough testing, fixes, and versioning
+
+use real prototype examples and real feedback extracts in Task 3.
+
+The biggest places students still lose marks, even with a strong template, are:
+
+Being too generic instead of tailoring points to the brief and user needs. The top bands want full and comprehensive coverage, not broad statements. 
+
+digital-occupational-specialism…
+
+Not evidencing claims in Task 2 and Task 3. The mark scheme wants examples from the prototype, testing, and specific feedback.
+
+Weak implementation quality. Even a perfect write-up cannot get top Task 2 marks if the code is not efficient, robust, maintainable, and built in at least two languages.
+
+Weak evaluation. Task 3 top marks require a thorough and detailed evaluation against measurable criteria, supported by relevant examples and feedback, plus convincing rationale for future improvements.
