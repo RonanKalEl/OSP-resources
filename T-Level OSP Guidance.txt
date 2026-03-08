@@ -1,0 +1,333 @@
+﻿Task 1 - Research
+1. Industry Infrastructure (Hardware & Software)
+The Goal: Show you understand the "toolkit" of the industry in the brief.
+* Hardware Requirements: Don’t just say "computers." Research specific devices. Does the industry need rugged tablets for outdoor work? High-spec servers for data? IoT sensors to track movement?
+* Software Ecosystems: What are the "standard" types of software here? (e.g., CRM for sales, CAD for engineering, or ERP for logistics).
+* Integration: Research how new apps "talk" to old systems. Look up APIs (Application Programming Interfaces) and how they allow different platforms to share data securely.
+2. Emerging Technologies
+The Goal: Show you aren't just suggesting "basic" tech, but looking at what’s coming next.
+* Automation & AI: Research how Machine Learning can take over repetitive tasks. Could a chatbot handle customer queries? Could AI predict when a machine is about to break?
+* Cloud & Connectivity: Research the benefits of Cloud Computing (like AWS or Azure) versus keeping data on a physical hard drive. Look into how 5G or Edge Computing speeds up data processing.
+* Immersive Tech: Research if Augmented Reality (AR) or Digital Twins (virtual copies of real objects) could help with training or remote repairs.
+3. User Needs & Accessibility
+The Goal: Prove that you’ve thought about the humans who will actually use your solution.
+* User Personas: Identify at least two different types of users.
+   * The "Front-line" User: They need speed, simplicity, and a mobile-friendly UI.
+   * The "Manager": They need high-level dashboards, reports, and data visualisation to make big decisions.
+* Accessibility Standards: You must research WCAG (Web Content Accessibility Guidelines). How will your solution work for someone with a visual impairment or someone using a screen reader?
+* Digital Literacy: Research the typical skill level in this industry. Do they need a "plug-and-play" solution, or will they need extensive training?
+4. Regulations, Guidelines, and Ethics
+The Goal: Show you can keep the company out of legal trouble.
+* Data Protection: You must mention GDPR (or the Data Protection Act). How will your solution store personal data safely? Research Encryption and Multi-Factor Authentication (MFA).
+* Cybersecurity Frameworks: Look up Cyber Essentials or ISO 27001. These are the "gold standards" for keeping digital systems safe from hackers.
+* Industry-Specific Laws: Every sector has a "boss." Research the specific regulator for your brief (e.g., Ofcom for Comms, FCA for Finance, or CQC for Health). What are their rules for digital data?
+
+
+Task 1 - Proposal
+1. Project Rationale & Justification
+Header: Technical Rationale and Solution Justification
+* Justification of Approach: Explain why a computational solution (using PHP/MariaDB) is the best approach for this specific problem. What other solutions did you consider?
+* Benefits of Automation: Discuss how the system will replace manual or inefficient processes (e.g., replacing paper-based tracking with automatic calculations).
+* Research-Led Decisions: Refer to your research of existing products to explain why your proposed site will be more effective or user-friendly than current market solutions.
+2. Overall Business Context
+Header: Strategic Business Context and Stakeholder Alignment
+* Meeting Client Needs: Detail how the site fulfils the specific requirements of the organisation (e.g., promoting the business, encouraging customer engagement).
+* Target Audience: Define the user groups (e.g., free members vs. paid subscribers) and how the business model supports these different tiers.
+* Market Positioning: Explain how the solution adds value to the business compared to competitors identified in your research.
+3. Requirements Analysis
+Header: Detailed Functional and Non-Functional Requirements
+* Functional Requirements: Provide a prioritised list of specific features the site must do, such as user authentication, secure payment portals, and data visualisation (graphs/trends). Remember think about managers etc - what would THEY like to see?
+* Non-Functional Requirements: Define the quality standards, including performance (load times), scalability, and usability (intuitive navigation).
+* Legal & Ethical Compliance: Explicitly state how the solution will meet laws such as GDPR, accessibility standards for users with sight loss, and copyright for assets used.
+
+________________
+4. Problem Identification & Decomposition
+Header: Technical Challenges and Problem Decomposition
+   * Complexity Breakdown: Show you have "decomposed" the project into smaller, manageable technical problems (e.g., how to securely store passwords or handle session management).
+   * Technical Risks: Identify potential hurdles, such as ensuring data accuracy or managing hardware/browser compatibility across mobile and desktop.
+   * Limitations: Be honest about what the system won’t do or the constraints of the technology (e.g., hardware-specific limitations).
+
+5. Success Metrics (KPIs & UAC)
+Header: Key Performance Indicators (KPIs) and User Acceptance Criteria (UAC)
+      * KPIs: Define measurable goals for the system’s performance (e.g., "The system must handle X concurrent users" or "Pages must load within 2 seconds").
+      * UAC: Create a checklist of "pass/fail" conditions that must be met for the client to accept the work (e.g., "A confirmation email is sent automatically upon registration").
+
+6. Full Description of the Proposed Solution
+Header: Proposed Technical Solution Design
+         * System Architecture: Describe the interaction between the PHP backend, the MariaDB database, and the frontend interface.
+Data Structure: Explain the site's hierarchy and how data flows between sections (e.g., from login to the dashboard).
+         * User Experience (UI/UX): Describe the design philosophy, such as a "minimalist design" to avoid clutter and the use of intuitive icons to aid navigation. 
+         * Hardware Specifications: Detail the minimum hardware required to run the solution effectively.
+
+
+Task 1 - Design Documentation
+1. Description of the Proposed System
+            * What to write: Overview of the client’s problem and your digital solution.
+            * Key elements: Specific aims, "roadblocks" (schedules/motivation), and benefits of a computational approach.
+            * This is only a SUMMARY.
+2. Key Performance Indicators (KPIs) and User Acceptance Criteria
+            * What to write: Measurable requirements using the MoSCoW method.
+            * Key elements: Must/Should/Could features like membership systems and navigation.
+            * The key part is how you are MEETING THEM.
+3. System Architecture and Components
+            * What to write: Break down the sub-systems and data movement.
+            * Key elements:
+            * Hierarchy Chart: Show the "tree" of your application (e.g., Home → Login → Dashboard → Progress Tracker).
+            * Data Flow Diagram (DFD): Insert a Level 0 or Level 1 DFD here to show how data moves between the User, the System Processes, and the Data Stores (Database).
+            * User Journeys: Visual flow charts showing the path a user takes to complete a task.
+4. Non-Functional Requirements (FURPS Model)
+            * What to write: Operational criteria (Functionality, Usability, Reliability, Performance, Supportability).
+5. Functional Requirements Table
+            * What to write: Tabulated list of specific features with Priority (High/Medium/Low) and Justification.
+6. UI/UX Design Principles
+            * What to write: Design choices based on your research (minimalism, whitespace, clear labeling).
+7. Accessibility and Legal Considerations
+            * What to write: Inclusion (WCAG standards) and legal compliance (GDPR, Copyright).
+8. Technical Specifications (Algorithms and Data)
+            * What to write: The "blueprints" of your code and data.
+            * Key elements:
+            * Algorithms & Flow Charts: For every complex process (Registration, Login, Data Calculation), provide a Flow Chart side-by-side with your Pseudocode. This demonstrates the logic flow and decision points (IF/THEN).
+            * Data Dictionary: A detailed table defining every variable used in your algorithms. Include: Variable Name, Data Type (e.g., String, Boolean), Validation Rules, and Purpose.
+            * Entity Relationship Diagram (ERD): A visual map of your database tables. Show the relationships (1:many) between tables like Users, Workouts, and Subscribers.
+            * Database Schema: A list of tables, fields, and data types (e.g., UserID as INT, Email as VARCHAR).
+DD - Example
+Technical Specification Report
+Bean and Brew Digital Solution
+Matthew Ellis
+________________
+
+
+Technical Specification Report: Bean and Brew Digital Solution        1
+1. Description of the Proposed System        3
+2. Key Performance Indicators (KPIs) and MoSCoW        4
+3. System Architecture and Components        6
+4. Non-Functional Requirements (FURPS)        7
+5. Functional Requirements Table        8
+6. UI/UX Design Principles        10
+7. Accessibility and Legal Considerations        11
+8. Technical Specifications (Algorithms and Data)        13
+________________
+Description of the Proposed System
+The proposed digital solution for Bean and Brew is designed to transform the current manual operations across the Harrogate, Leeds, and Knaresborough Castle branches into a cohesive, automated ecosystem. By centralising the booking and ordering processes, the business can mitigate the risks associated with human error and overbooking, which currently threaten customer satisfaction and operational efficiency. This system will serve as a single source of truth for both staff and customers, ensuring that every interaction is recorded accurately in real-time.
+A primary aim of this project is to address the "roadblocks" of inconsistent scheduling and fluctuating customer motivation. Currently, the lack of a digital platform means customers must phone or visit in person to book baking lessons, creating a barrier to entry that discourages spontaneous engagement. By introducing a streamlined online portal, we lower this threshold, allowing for instant gratification and booking confirmation, which is essential in a fast-paced retail environment.
+The shift to a computational approach provides significant benefits regarding data integrity. Unlike paper-based logs, a database-driven system can enforce strict validation rules, preventing double-bookings of limited restaurant space or baking equipment. This level of precision is vital for maintaining the reputation of Bean and Brew as a premium, professional establishment. Furthermore, the system will allow for granular tracking of inventory, particularly for pre-ordered baked goods, ensuring that the kitchen teams are never overwhelmed or under-prepared.
+From a strategic perspective, the digital solution enables Bean and Brew to scale its operations without a linear increase in administrative overhead. As the business grows, the automated handling of customer accounts and order histories will provide invaluable insights into consumer behaviour. This data-driven approach allows the owner to tailor marketing efforts and stock levels to specific local trends, such as a higher demand for sourdough in Harrogate compared to Leeds.
+The inclusion of a "Rate My Cake" social feature is a deliberate move to leverage organic growth through user-generated content. In the modern culinary industry, social proof is a powerful motivator; by encouraging customers to share their creations and experiences online, Bean and Brew effectively turns its clientele into a volunteer marketing force. This fosters a sense of community and belonging, which is often the differentiator for successful local businesses.
+Security and privacy are at the heart of the system architecture. By utilising a PHP/MySQL stack with robust encryption standards, we ensure that customer data is protected against unauthorised access. This technical foundation is chosen for its stability and the wide availability of support, ensuring that the system remains maintainable for years to come. The modular nature of the code will also allow for future expansions, such as integrated loyalty schemes or mobile payments.
+Furthermore, the system will streamline the customisation of baked goods hampers. This feature, identified through market research, represents a high-margin revenue stream that is currently difficult to manage manually. A digital interface allows customers to visualise their choices and see real-time price adjustments, which significantly enhances the user experience and encourages higher average transaction values.
+Accessibility is another key pillar of the proposed system. We aim to exceed standard requirements by ensuring the interface is intuitive for users of all technical abilities and physical requirements. By following WCAG guidelines, we ensure that the Bean and Brew brand remains inclusive, catering to a diverse demographic that ranges from young professionals in Leeds to tourists in Knaresborough.
+Finally, the system will provide the owner with a comprehensive dashboard to monitor performance across all three locations simultaneously. This high-level overview is crucial for making informed business decisions, such as adjusting opening hours or reallocating staff during peak lesson periods. The transition from a fragmented manual process to an integrated digital solution is not merely an upgrade; it is a fundamental evolution of the Bean and Brew business model.
+By implementing this system, Bean and Brew will secure its position as a forward-thinking leader in the local café and bakery sector. The combination of convenience, community, and consistency will drive both immediate sales and long-term brand loyalty, providing a robust return on investment and a platform for future innovation.
+________________
+Key Performance Indicators (KPIs) and MoSCoW
+The success of the Bean and Brew digital solution will be measured against a set of rigorous Key Performance Indicators (KPIs) designed to ensure both technical excellence and business value. These KPIs are not merely arbitrary targets; they are aligned with the core objectives of improving customer throughput and operational accuracy. By monitoring these metrics, we can objectively evaluate the system's impact on the business's bottom line.
+Using the MoSCoW method allows us to prioritise features in a way that guarantees a functional "Minimum Viable Product" (MVP) while planning for future enhancements. This approach is essential for managing the project scope and ensuring that the most critical business needs—such as bookings and secure accounts—are delivered first. It provides a clear roadmap for development and helps manage stakeholder expectations regarding what will be available at launch.
+The "Must Have" category includes space and lesson bookings, which are the primary drivers of the new digital strategy. Without these, the system fails to solve the client's most pressing problem: manual booking errors. We have set a target for these reservations to be completed in under three minutes, as ease of use is the most significant factor in converting a casual browser into a confirmed customer.
+Another "Must Have" is a secure login and registration system. In an era of frequent data breaches, customer trust is paramount. Using industry-standard PHP password hashing ensures that even in the event of a data leak, sensitive information remains unreadable. This builds a foundation of security that is non-negotiable for any modern web application.
+"Should Have" requirements include the automated email confirmation system. While the system could function without it, the lack of immediate feedback would likely lead to a high volume of customer enquiries, negating the efficiency gains of the digital platform. Providing instant, written confirmation professionalises the brand and gives the customer peace of mind.
+The hamper customisation tool is also a "Should Have" feature. Market research suggests this is a highly desired service, and its implementation will significantly boost revenue. By automating the pricing logic, we remove the burden from staff to calculate bespoke costs, reducing the likelihood of pricing errors and ensuring a consistent margin on every sale.
+"Could Have" features, such as the social media 'Rate My Cake' integration, are designed to enhance the brand's digital footprint. While not essential for core operations, these features provide the "wow factor" that encourages viral growth. They represent the icing on the cake, transforming a functional tool into an engaging lifestyle platform.
+The "Won't Have" category for Phase 1 is a native mobile application. By making this explicit, we focus all resources on perfecting the web-based experience. Modern responsive design techniques mean a web app can feel just as fluid as a native one, providing a high-quality experience across all devices without the complexity and cost of multi-platform development.
+Regular review of these KPIs will allow for iterative improvements post-launch. For instance, if data shows that users are dropping off during the hamper customisation process, we can refine the UI to be more intuitive. This commitment to continuous improvement is what will keep Bean and Brew competitive in an increasingly digital marketplace.
+Ultimately, this prioritisation ensures that every pound of the development budget is spent on features that provide the highest return. By focusing on stability and core functionality first, we create a reliable system that the business can depend on, while leaving the door open for the exciting, community-focused features that will define the brand's future.
+________________
+System Architecture and Components
+The architecture of the Bean and Brew system is built on a hierarchical structure that prioritises logical flow and ease of navigation. At the top of this hierarchy is the Home Page, which serves as the primary gateway to the three main pillars of the business: Services, Shopping, and Community. This clear division ensures that users can find exactly what they are looking for without being distracted by irrelevant information.
+  
+
+Beneath the Home Page, the User Account section is a critical sub-system. By allowing customers to create accounts, we facilitate a "speedy re-ordering" process, which was a key request from the existing customer base. This sub-system will store preferences and history, making the user feel valued and understood, which in turn drives loyalty and repeat business.
+The Services branch of the hierarchy handles the complexity of the three different physical locations. Each branch (Harrogate, Leeds, Knaresborough) is treated as a distinct entity within the database, yet they are unified through a single interface. This allows the business to manage different capacities and opening hours seamlessly, providing a consistent experience for the customer regardless of which branch they visit.
+The Shopping sub-system is designed to handle both simple pre-orders, such as a morning coffee, and complex transactions like bespoke hampers. The logic behind this must be robust; it needs to check stock levels in real-time to ensure that a customer doesn't order a specific baked good that has already sold out. This integration between the digital storefront and the physical kitchen is the key to operational success.
+________________
+  
+
+The Data Flow Diagram (DFD) for the system illustrates how information moves from the user to the various processes and data stores. When a user submits a booking, the system doesn't just record it; it initiates a series of checks against the availability store and the transaction log. This multi-step process is what prevents the double-booking errors that have plagued the current manual system.
+User Journeys are mapped out to ensure the path to completion is as short as possible. For example, the "Pre-order Coffee" journey is designed to be completed in as few as three clicks for a returning user. By minimising friction, we capitalise on the "convenience factor" that is essential for a café business. Every additional step in a journey is a point where a customer might change their mind.
+The backend is built on a Level 1 DFD approach, which provides enough detail for developers to understand the data requirements without becoming bogged down in unnecessary complexity. This balance is crucial for ensuring the project stays on schedule and within budget. It provides a clear blueprint for how the PHP scripts will interact with the MySQL database.
+The choice of a web-based architecture over a local installation ensures that the system is accessible from anywhere. Staff at the Knaresborough branch can see bookings made for the Leeds branch, allowing for better resource sharing and high-level management. This "cloud-ready" approach is essential for a business with multiple locations.
+Security is integrated into every layer of the architecture. From the way data is sanitised before being entered into the database to the use of secure sessions for logged-in users, the system is designed to be resilient. This proactive approach to security is a justification for the custom-built nature of the solution, as off-the-shelf products often lack this level of specific protection.
+Finally, the architecture is designed to be scalable. As Bean and Brew expands to more locations, adding a fourth or fifth branch will be a simple matter of updating the database rather than rewriting the code. This future-proofing ensures that the digital solution remains a valuable asset for the business for many years to come.
+________________
+Non-Functional Requirements (FURPS)
+The Non-Functional Requirements of the system, categorised using the FURPS model, define the quality attributes that will make the Bean and Brew solution truly professional. Functionality is our first pillar, ensuring the system supports the specific nuances of three distinct locations. Each branch has its own character and constraints; the digital solution must reflect this, from varying table sizes to unique local events.
+Usability is perhaps the most visible non-functional requirement. In the competitive café market, a clunky interface is enough to drive a customer to a competitor. We are using Tailwind CSS to create a modern, responsive UI that feels at home on a high-end smartphone or a desktop computer. The design will focus on clarity and accessibility, ensuring that everyone can use the system with ease.
+Reliability is non-negotiable for a system that handles financial transactions and time-sensitive bookings. Our target of 99.9% uptime is designed to ensure that the "digital doors" of Bean and Brew are always open. To support this, we will implement rigorous error-handling and automated backups, ensuring that the business never loses critical data.
+Performance requirements are set to meet modern user expectations. Research shows that users begin to abandon a site if it takes longer than two seconds to load. By optimising our PHP code and database queries, we will ensure that the system remains snappy even during peak periods, such as the morning coffee rush or the release of new baking lesson dates.
+Supportability ensures that the system can be maintained and updated without high cost. By using a modular approach based on Model-View-Controller (MVC) principles, we separate the business logic from the visual design. This means that a change to the brand's colour scheme won't require a complete overhaul of the booking logic, making future updates significantly simpler.
+Security is integrated into the "Functionality" and "Reliability" aspects of FURPS. We will implement session timeouts to protect users who may be accessing the system from public Wi-Fi or shared computers. This is a common scenario in a café environment, and proactive security measures like this are essential for protecting customer accounts.
+Scalability is another key aspect of Performance. The system must be able to handle at least 100 concurrent users without any degradation in speed. This ensures that a popular social media post or a local event doesn't crash the site, maintaining the brand's professional image at all times.
+Recoverability is a subset of Reliability. In the unlikely event of a server failure, the system must be able to restore to its last known good state within minutes. This is justified by the fact that Bean and Brew rely on the system for its daily operations; any significant downtime would result in lost revenue and frustrated customers.
+Documentation is a vital part of Supportability. We will provide clear, concise guides for both the staff and the system administrators. This ensures that as staff change, the knowledge of how to operate the digital solution remains within the business, reducing the need for expensive external support.
+Finally, the legal requirements of GDPR and the Data Protection Act fall under the "Supportability" and "Functionality" headers. The system must be designed from the ground up to respect user privacy, providing clear paths for data deletion and access requests. This isn't just a legal necessity; it's a core part of being a responsible, modern business.
+________________
+Functional Requirements
+The Functional Requirements of the Bean and Brew system are those specific, tangible features that the software must perform to meet the business's goals. By tabulating these requirements, we provide a clear checklist for the development phase, ensuring that no critical piece of functionality is overlooked. Each requirement is assigned a priority and a justification, linking it back to the original client brief and market research.
+The high-priority core of the system is the booking engine for restaurant spaces and baking lessons. This is justified by the need to eliminate the "roadblocks" of manual scheduling that currently hamper efficiency. By automating this, we ensure that the three locations (Harrogate, Leeds, and Knaresborough) are managed with mathematical precision, maximising the utility of every square foot of floor space.
+Pre-ordering for coffee and baked goods is another high-priority functional requirement. In the fast-paced retail environment of Yorkshire’s high streets, speed of service is a major competitive advantage. Justification for this lies in the ability to capture sales from busy commuters who might otherwise bypass the shop if they perceive a long queue.
+Customer accounts are a critical requirement for enabling the "speedy re-ordering" feature requested in the research. By storing historical data and favourite items, the system reduces the cognitive load on the user during subsequent visits. This leads to higher conversion rates as the friction between the desire for a product and the completion of a purchase is minimised.
+The hamper customisation tool represents a medium-priority requirement that directly addresses the market research findings. It allows for a higher degree of personalisation than is possible with a standard product catalogue. The justification here is the potential for significant revenue growth through high-margin, bespoke gift packages that cater to the local tourist and gift markets.
+Social media integration, specifically the ‘Rate My Cake’ feature, is a functional requirement focused on community building. While it may seem like a "soft" feature, its justification is purely strategic: it creates a feedback loop that encourages customer engagement and provides free, authentic marketing content. It transforms the digital platform from a transaction tool into a community hub.
+The system must also function as a secure payment portal, handling transactions for both pre-orders and lesson deposits. This requirement is justified by the need for financial security and the convenience of one-stop shopping. By integrating with established payment gateways, we provide the user with a familiar and trusted checkout experience.
+Inventory management is a "backend" functional requirement that is essential for the "frontend" ordering system to work. It ensures that products are marked as "out of stock" the moment the daily bake limit is reached. This is justified by the need to manage customer expectations and prevent the reputational damage caused by unfulfilled orders.
+Notification services, via both email and on-screen alerts, are functional requirements that enhance the user experience. They provide the "closed-loop" communication that customers expect in a modern digital service. The justification is the reduction in staff time spent answering "did my booking go through?" enquiries.
+Finally, a reporting dashboard for the business owner is a vital functional requirement. It must aggregate data from all three sites into a single, digestible view. This is justified by the need for high-level oversight, allowing the owner to identify which locations are performing best and where additional marketing or staff support may be required.
+________________
+UI/UX Design Principles
+  
+
+The UI/UX design of the Bean and Brew solution is governed by a philosophy of "functional elegance." We believe that a system used for food and hospitality should feel as warm and inviting as the physical locations themselves. Every design choice, from the colour palette to the typography, is justified by its ability to guide the user toward a successful and pleasant interaction.
+Minimalism is a core principle of our design strategy. By stripping away unnecessary elements, we ensure that the user’s focus remains on the task at hand—whether that is booking a table or selecting a coffee. This reduction in visual noise is justified by its ability to lower the "bounce rate," as users are less likely to feel overwhelmed by complex navigation menus.
+Whitespace, often referred to as "negative space," is used deliberately to create a sense of breathability and calm. In the context of a busy café, the digital interface should be a retreat, not another source of stress. The justification for ample whitespace is its role in improving legibility and highlighting the most important "call-to-action" (CTA) buttons.
+Clear labelling and intuitive icons are essential for a system that will be used by a wide demographic. We avoid jargon and "tech-speak," opting instead for simple, direct language that is universally understood. This is justified by the need to cater to diverse users, from local pensioners in Knaresborough to tech-savvy students in Leeds.
+Consistency across all pages ensures that the user never has to "re-learn" how the site works. If a button looks a certain way on the Home Page, it must look the same in the Booking section. This consistency is justified by its contribution to "mental models," where users can navigate based on intuition rather than having to read instructions.
+Visual hierarchy is used to guide the user’s eye through the page. We use size, colour, and weight to indicate the relative importance of different elements. For example, the "Confirm Booking" button will always be the most prominent element on a form. This is justified by the need to streamline the conversion process and reduce the time spent on each page.
+Responsive design ensures that the user experience is equally high-quality across all devices. Whether a customer is using a large desktop monitor at home or a small smartphone on the train, the interface must adapt gracefully. This is justified by the modern reality that the majority of café-related searches and bookings occur on mobile devices.
+Feedback loops are integrated into every interaction. When a user clicks a button, there should be a subtle animation or a message to confirm the action was received. This is justified by its role in reducing user anxiety; without feedback, users often click buttons multiple times, which can lead to duplicate bookings or errors.
+The choice of colours is directly inspired by the Bean and Brew brand—rich browns, creamy off-whites, and warm accents. This is justified by the need for "brand coherence," where the digital experience feels like an extension of the physical shop. It builds a subconscious link between the convenience of the app and the quality of the coffee.
+Finally, we prioritise accessibility as a fundamental design principle rather than an afterthought. Every element is tested for colour contrast and screen-reader compatibility. The justification for this is both ethical and practical: an inclusive design ensures that Bean and Brew doesn't turn away any potential customer due to a poorly designed interface.
+________________
+Accessibility and Legal Considerations
+The Bean and Brew digital solution is developed with a "compliance-first" mindset, ensuring that we meet all legal and ethical obligations from the outset. Accessibility is the first pillar of this section, where we aim for WCAG 2.1 Level AA compliance. This ensures that the system is perceivable, operable, and understandable for users with a wide range of impairments, including visual, auditory, and cognitive challenges.
+Justification for high accessibility standards is found in both social responsibility and business logic. By making the site accessible, we open the Bean and Brew brand to the 20% of the UK population who live with a disability. This inclusivity is a core value of the modern hospitality sector and ensures that no customer is excluded from the convenience of online booking.
+GDPR compliance is a critical legal consideration that governs how we handle customer data. Every feature, from account creation to the "Rate My Cake" feature, is designed with "privacy by design" principles. This means that we only collect the minimum amount of data required to provide the service, and we store it with the highest levels of encryption.
+The justification for robust GDPR measures is the protection of both the customer and the business. A data breach could lead to significant fines from the Information Commissioner's Office (ICO) and catastrophic damage to the Bean and Brew brand. By being transparent about data usage and providing easy ways for users to manage their privacy, we build long-term trust.
+Copyright and intellectual property laws are strictly adhered to in the development of the system. All images, logos, and written content will be owned by Bean and Brew or correctly licensed. This is justified by the need to avoid legal disputes that could arise from the unauthorised use of third-party assets, protecting the business from unnecessary litigation.
+Electronic communication laws, such as the Privacy and Electronic Communications Regulations (PECR), govern how we send marketing emails. Users must explicitly "opt-in" to receive newsletters or promotions. The justification here is to maintain a positive relationship with the customer; spamming leads to unsubscribes and a negative brand perception.
+The "Right to be Forgotten" is a specific GDPR requirement that we have integrated into the account settings. Users can delete their accounts and all associated personal data with a single request. This is justified by the principle of user autonomy, giving customers complete control over their digital footprint within the Bean and Brew ecosystem.
+We must also consider the legalities of online financial transactions. The system will use PCI DSS-compliant payment gateways to handle credit and debit card information. This is justified by the need to offload the risk of handling sensitive financial data to specialists, ensuring that Bean and Brew is never in possession of raw card numbers.
+Terms and Conditions and a clear Privacy Policy will be accessible from every page of the site. These documents provide the legal framework for the relationship between the business and the customer. The justification is to provide clear rules of engagement, protecting Bean and Brew in the event of a dispute over a booking or a product.
+Finally, we will conduct regular legal and accessibility audits as the system evolves. Laws and standards change, and staying ahead of these changes is a proactive way to manage risk. This ongoing commitment is justified by the need for a stable, long-term digital asset that grows alongside the physical business without becoming a legal liability.
+________________
+Technical Specifications (Algorithms and Data)
+The Technical Specifications section provides the "blueprints" for the system’s logic and data storage, ensuring that the transition from concept to code is seamless. Algorithms are developed for every complex process, such as the booking engine. By using flow charts side-by-side with pseudocode, we provide a clear roadmap for the developers, reducing the likelihood of logic errors.
+The booking algorithm must handle multiple variables: date, time, location, and capacity. It works on a "first-come, first-served" basis but must also check for overlaps and maintenance windows. The justification for such a detailed algorithm is to ensure that the system can never generate a double-booking, which is the primary failure of the current manual process.
+A Data Dictionary is provided to define every variable used in the system. This includes the variable name, data type (e.g., String, Boolean), and validation rules. For example, the orderTotal must always be a positive decimal. The justification for a Data Dictionary is to ensure data consistency across the entire application, making the code easier to debug and maintain.  
+The Entity Relationship Diagram (ERD) is a visual map of the database tables and how they relate to one another. It shows the "one-to-many" relationship between a User and their Bookings, and between a Location and its available slots. This is justified by the need for a relational database structure that minimises data redundancy and maximises query speed.
+The Database Schema provides the exact SQL definitions for the tables, fields, and data types. This is the "source code" for the database itself. Using efficient data types (e.g., INT for IDs and VARCHAR for emails) is justified by the need for a high-performance system that can handle thousands of records without slowing down.
+Validation algorithms are used throughout the system to ensure that user input is safe and accurate. For instance, the system must verify that a requested lesson date is in the future. This is justified by the "Garbage In, Garbage Out" principle; by ensuring only clean data enters the system, we prevent errors from propagating through the business logic.
+The hamper customisation algorithm is a particularly complex part of the system. It must dynamically calculate the total price and shipping weight based on the items selected by the user. The justification for this specific algorithm is the need to provide real-time feedback to the customer, which is a key driver of conversion in the gift market.
+Security algorithms, such as those used for password hashing and CSRF (Cross-Site Request Forgery) protection, are essential for the system’s integrity. We use the password_hash() function in PHP, which is the industry standard for secure storage. This is justified by the absolute necessity of protecting customer accounts from malicious actors.
+Data backup and recovery algorithms are also specified. These ensure that the database is snapshotted daily and stored in a separate, secure location. The justification for this is business continuity; in the event of a server failure, we can restore the entire system to its state from 24 hours ago, minimising data loss.
+Finally, we provide pseudocode for the social media sharing feature. This logic must interact with external APIs while ensuring that the user’s privacy settings are respected. The justification for documenting this logic in detail is to ensure that the social features are integrated smoothly into the core application, providing a cohesive and secure experience for the user.
+
+
+Task 2
+Development Diary
+
+
+Session 1 (List start & End time)
+
+
+            * What did you do?
+            * What did you change?
+            * Why did you do this?
+            * Show screenshots of both some code you added or changed and the outcome.
+
+
+
+
+Test Log
+
+
+            * Normal data
+            * Erroneous data
+            * Extreme data
+            * Testing of inputs
+            * Test CALCULATIONS
+            * Validation & Processes
+
+
+Task 3a
+
+
+Advice
+
+
+I would recommend you ALL do the following.
+
+
+            * Screencasts.
+            * Questionnaires
+            * Records of observation
+            * Seeing someone use your website and document what they do and how they do it. What pain points did you see?
+            * Paired coding
+            * Get feedback from other coders in the class!
+            * What did you see that may not have come up in testing, such as the quality of comments, other solutions, etc
+            * All questions MUST be meaningful, such as being able to be turned into graphs.
+            * It should be measurable so you can make changes, such as out of 10, etc.
+            * ALL of your KPIs have questions about them.
+            * You cover EVERY single feature.
+	
+
+
+
+Feedback Planning
+
+
+            * Explain who the technical and non-technical users are.
+            * Why are you going to get feedback from them?
+            * How are you going to get feedback from them?
+
+
+Feedback Method 1
+
+
+            * Show the questions and justify HOW this question helps you to get feedback to make improvements.
+
+
+Feedback Analysis 
+
+
+            * What does your feedback show?
+            * Why do YOU think this shows it?
+            * Create graphs and explain what trends you see and HOW you could use this to improve your website.
+
+
+Task 3b
+Assessing project outcomes
+
+
+            * What were the initial requirements of the digital solution?
+            * Does your finished solution meet these requirements?
+            * (If yes, explain how. If no, what elements do not meet the requirements and why?)
+            * What did the feedback you collected tell you about your solution?
+
+
+Use of assets and sources
+
+
+            * What external sources did you use? Were the sources you used reliable?
+            * How did you ensure that you met copyright and intellectual property regulations? Were there any ethical considerations around the sources or assets you used?
+            * Are the assets you used suitable for the purpose?
+            * Were there any assets you found but decided not to use? Why did you not use them in your solution?
+
+
+Functional and non-functional requirements of the solution
+
+
+            * What were the functional requirements of the solution?
+            * Does your solution meet these functional requirements?
+            * Were there any non-functional requirements for the solution? Does your solution meet these?
+
+
+KPIs and user acceptance criteria
+
+
+            * What were the KPIs for the solution?
+            * Does your solution meet these KPIs?
+            * Project brief for Design, development and implementation
+            * What were the user acceptance criteria? Does your solution meet these criteria?
+            * What did the users say about your solution when you collected feedback?
+
+
+Further developments
+
+
+            * Are there any parts of the solution that you did not manage to complete? How could these be achieved?
+            * What future adaptations or developments would improve your solution?
+            * (These may or may not have been part of the initial project brief or functional requirements.)
+            * What did the feedback you collected suggest about future developments? Do you think these are achievable?
+            * How could the design be adapted if there are changes in the following?
+            * The business needs or processes
+            * Technology and the need for compatibility
+            * Regulatory requirements
